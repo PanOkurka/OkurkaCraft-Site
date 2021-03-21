@@ -318,7 +318,7 @@ nav {
     position: fixed;
     right: 0;
     top: 0;
-    background: #5385c1;
+    background: transparent;
     color: #000000;
     height: 100%;
     max-width: 80%;
