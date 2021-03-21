@@ -278,6 +278,18 @@ padding: 0.5em 0 0.5em 2em;
 }
 
 /* Nav */
+nav {
+    display: block;
+	overflow-y: hidden;
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
 
 @media screen and (max-width: 980px) {
 
@@ -446,6 +458,47 @@ padding: 0.5em 0 0.5em 2em;
     font-size: 20px;
     color: white;
 }
+
+
+
+.footer1 {
+    background-color: #1d1d1e;
+    padding: 50px 0;
+}
+
+.footer1 .item.text{
+    margin-bottom: 36px;
+}
+
+.footer1 .item.social{
+    text-align: center;
+}
+
+.footer1 .item.social > a {
+    font-size: 20px;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 8px;
+    color: #fff;
+    opacity: 0.75;
+  }
+
+.footer1 .item.social > a:hover {
+    background-color: #474350;
+  }
+
+.footer1 .copyright{
+    text-align: center;
+    padding-top: 5px;
+    font-family: consolas;
+    font-size: 20px;
+    color: white;
+}
+
 
 ::-webkit-scrollbar {
     width: 8px;
@@ -689,3 +742,55 @@ padding: 0.5em 0 0.5em 2em;
 				.box.person .image img {
 					max-width: 100%;
 				}
+
+@media screen and (max-width: 750px) {
+    .MainScreen {
+        padding-top: 400px;
+    }
+
+    .social-link {
+        margin-top: 300px;
+        }
+    
+        .footer {
+            margin-top: 20%;
+        }
+
+        .footer1 {
+            margin-top: 400px;
+        }
+
+        .MainScreen h1 {
+            font-size: 50px;
+        }
+        
+        .MainScreen p {
+            font-size: 18px;
+        }
+
+        #particles-js{
+            
+        }
+
+        .box-container2 h1 {
+            font-size: 30px;
+        }
+        
+        .box-container2 p strong {
+            font-size: 15px;
+        }
+
+        .box-container h1 {
+            font-size: 30px;
+        }
+        
+        .box-container p strong {
+            font-size: 16px;
+        }
+
+        .box-container{
+            width: 70%;
+            padding: 10px;
+            margin: 0;
+        }
+}
